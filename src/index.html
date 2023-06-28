@@ -18,7 +18,7 @@
       </span>
     </div>
     <form>
-      <input class="w-36 md:w-96 lg:w-150 h-10 px-4 bg-slate-100 dark:bg-zinc-800 placeholder-gray-500 focus:outline-none  focus:ring-1 focus:ring-zinc-700 focus:transition-colors rounded-md" placeholder="Search" type="text">
+      <input class="w-36 md:w-96 lg:w-150 h-10 px-4 bg-slate-100 dark:bg-zinc-800 placeholder-gray-500 focus:outline-none rounded-md" placeholder="Search" type="text">
     </form>
 
     <button onclick="openModal()" class="h-10 w-24 bg-slate-700 rounded-md text-white hidden">Sign In</button>
@@ -30,7 +30,7 @@
         <span class="text-zinc-800 dark:text-white">Canertsz</span>
       </button>
 
-      <div class="hidden group-focus-within:block absolute bg-gray-100 w-32 py-2 px-2 mt-2 rounded">
+      <div class="hidden group-focus-within:block absolute bg-gray-100 dark:bg-zinc-800 dark:text-white w-32 py-2 px-2 mt-2 rounded">
 
         <a class="hover:bg-gray-200 block rounded py-1 transition-colors" href="">
           <span class="ml-1">Profile</span>
@@ -236,31 +236,31 @@
 
       <div class="mt-5 grid gap-2 grid-rows-2 grid-cols-2 lg:hidden">
 
-        <a class="flex items-center justify-center dark:bg-zinc-800 dark:text-white px-3 py-2 rounded hover:bg-gray-300" href="">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
+        <a class="flex items-center justify-center drop-shadow-sm hover:drop-shadow hover:transition-all transition-all dark:bg-zinc-800 dark:text-white px-3 py-2 rounded bg-gray-50 hover:bg-gray-100" href="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-1 text-sky-500">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
           </svg>          
           <span>Homepage</span>
         </a>
 
-        <a class="flex items-center justify-center dark:bg-zinc-800 dark:text-white bg-gray-50 px-3 py-2 rounded hover:bg-gray-100" href="">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-          </svg>          
+        <a class="flex items-center justify-center drop-shadow-sm hover:drop-shadow hover:transition-all transition-all dark:bg-zinc-800 dark:text-white bg-gray-50 px-3 py-2 rounded hover:bg-gray-100" href="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-yellow w-6 h-6 mr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+          </svg>                    
           <span>Flow</span>
         </a>
 
-        <a class="flex items-center justify-center dark:bg-zinc-800 dark:text-white bg-gray-50 px-3 py-2 rounded hover:bg-gray-100" href="">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-          </svg>          
+        <a class="flex items-center justify-center drop-shadow-sm hover:drop-shadow hover:transition-all transition-all dark:bg-zinc-800 dark:text-white bg-gray-50 px-3 py-2 rounded hover:bg-gray-100" href="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-red-500 w-6 h-6 mr-1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+          </svg>                    
           <span>Explore</span>
         </a>
 
-        <a class="flex items-center justify-center dark:bg-zinc-800 dark:text-white bg-gray-50 px-3 py-2 rounded hover:bg-gray-100" href="">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-          </svg>          
+        <a class="flex items-center justify-center drop-shadow-sm hover:drop-shadow hover:transition-all transition-all dark:bg-zinc-800 dark:text-white bg-gray-50 px-3 py-2 rounded hover:bg-gray-100" href="">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-1 text-green-300">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0120.25 6v12A2.25 2.25 0 0118 20.25H6A2.25 2.25 0 013.75 18V6A2.25 2.25 0 016 3.75h1.5m9 0h-9" />
+          </svg>  
           <span>Articles</span>
         </a>
 
@@ -268,7 +268,7 @@
 
       <div class="divide-y divide-current w-full bg-gray-100 dark:bg-slate-800 h-[1px] mt-5"></div>
 
-      <div class="flex mt-5 w-full md:h-60 h-72 bg-twitter">
+      <div class="flex mt-5 w-full md:h-60 h-64 bg-twitter rounded">
 
         <div class="ml-10 flex items-center justify-center relative hidden lg:flex">
           <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24" stroke-width="0" stroke="currentColor" class="fill-white w-16 h-16 hidden lg:block">
