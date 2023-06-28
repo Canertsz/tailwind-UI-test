@@ -1,4 +1,4 @@
-Live preview 👉 tailwind-ui-test.netlify.app
+Live preview 👉 [tailwind-ui-test.netlify.app](https://tailwind-ui-test.netlify.app/)
 
 ![Screenshot 2023-06-28 at 19 38 41](https://github.com/Canertsz/tailwind-UI-test/assets/64376593/f76094e7-518b-43bd-8cd5-bb586eb77812)
 
